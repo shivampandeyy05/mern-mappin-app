@@ -1,7 +1,9 @@
 import axios from "axios"
 
 
-export const axiosInstance = axios.create({
+const axiosInstance = axios.create({
     baseURL: "https://mappin-app.herokuapp.com/api"
 })
+
+export default axiosInstance;
 
