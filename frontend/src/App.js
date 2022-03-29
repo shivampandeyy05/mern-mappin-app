@@ -82,7 +82,7 @@ function App() {
         width="100%"
         height="100%"
         transitionDuration="200"
-        // mapStyle="mapbox://styles/safak/cknndpyfq268f17p53nmpwira"
+        mapStyle="mapbox://styles/safak/cknndpyfq268f17p53nmpwira"
         onViewportChange={(viewport) => setViewport(viewport)}
         onDblClick={currentUsername && handleAddClick}
       >
