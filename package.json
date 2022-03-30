@@ -17,5 +17,5 @@
     "mongoose": "^5.12.4",
     "nodemon": "^2.0.7"
   },
-  "proxy": "https://mappin-app.herokuapp.com"
+  "proxy": "https://mappin-app.herokuapp.com/"
 }
