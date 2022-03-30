@@ -5,6 +5,9 @@ const dotenv = require("dotenv");
 const userRoute = require("./routes/users");
 const pinRoute = require("./routes/pins");
 const path = require('path');
+const cors = require('cors');
+
+app.use(cors());
 
 dotenv.config();
 
